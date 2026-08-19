@@ -16,8 +16,8 @@ public class StudentData {
 
 
         StudentData d2 = new StudentData("Abhishek", 2);
-        System.out.println("the name of Student is " + d2.name);
-        System.out.println("the age of Student is " + d2.age);
+        System.out.println("the name of Student is "+ d2.name);
+        System.out.println("the age of Student is "+ d2.age);
 
     }
 }
