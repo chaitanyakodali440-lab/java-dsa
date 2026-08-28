@@ -18,7 +18,7 @@ public class Main{
         for(int i = 0; i < str2.length();i++){
             char c = str2.charAt(i);
             if(frequency.containsKey(c)){
-                return false;
+                return true;
             }
             frequency.put(c,frequency.get(c) - 1);
             if(frequency.get(c)==0){
