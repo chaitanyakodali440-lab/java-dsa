@@ -16,8 +16,10 @@ public class InsertBeginning {
         return head;
     }
     static void display(Node head){
+
         Node current = head;
         while(current != null){
+            System.out.println("The value of Node is "+ current.data);
             current = current.next;
         }
     }
