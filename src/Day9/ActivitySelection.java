@@ -25,7 +25,10 @@ public class ActivitySelection{
         );
         int lastEnd = 0;
         for(Activity activity: activities){
+            System.out.println("COnsiole activites"+activity.start +"Last End is"+lastEnd);
+
             if(activity.start >= lastEnd){
+
                 System.out.println(
                         activity.start + "-" +
                                 activity.end
